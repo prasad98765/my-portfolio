@@ -1,0 +1,71 @@
+$primary-color:"black";
+
+.flot-container{
+    border: 0px solid $primary-color;
+    overflow: hidden;
+    display: flex;
+}
+
+.flot-child{
+    width: 50%;
+    float: left;
+    border: 2px solid white;
+    background-color: #eeeff6;
+    height: 500px;
+    position: absolute;
+}
+.flot-child2{
+    width: 50%;
+    float: right;
+    border: 2px solid white;
+    height: 900px;
+}
+
+.welcome-text{
+    text-align:end;
+    margin-right:-8.5%;
+    color: #3e64ff;
+    letter-spacing:4px
+}
+
+.name-div{
+    text-align:end;
+    margin-right:-40%
+}
+
+.name-text{
+    color: black;
+    letter-spacing: 5px;
+    text-align: end;
+    display: contents;
+    font-size: 300%;
+    font-weight: 900;
+}
+
+.position-text{
+    margin-right: -17%;
+    text-align: end;
+}
+
+.my-photo{
+    width: 65%;
+    margin: 62% 0%;
+    float: right;
+}
+
+@media screen and (max-width:480px) {
+    .name-text{
+        font-size: 100%;
+    }
+    .name-div{
+        margin-right:-65%
+    }
+    .welcome-text{
+        margin-right: -34%;
+        font-size: 100%;
+    }
+    .position-text{
+        margin-right: -45%;
+        font-size: 98%;
+    }
+}
